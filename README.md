@@ -1,4 +1,4 @@
-# Cybersecurity Portfolio — Blaine Traylor
+# Technical Projects — Blaine Traylor
 
 M.S. Information Assurance & Cybersecurity student at Sam Houston State University.
 Background in enterprise access governance, compliance, and security operations at Crown Castle.
