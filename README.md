@@ -2,7 +2,7 @@
 
 I work in enterprise IT operations at Crown Castle managing compliance workflows, access governance, and system documentation in a regulated telecom environment. I'm currently pursuing an M.S. in Information Assurance and Cybersecurity at Sam Houston State while building toward security-focused technical work on the side.
 
-These projects came out of that process — things I built to understand how detection actually works, not just read about it.
+These projects came out of that process things I built to understand how detection actually works
 
 ---
 
@@ -10,7 +10,7 @@ These projects came out of that process — things I built to understand how det
 
 **Stack:** Python, Wireshark, TCP/IP
 
-I wanted to understand what suspicious network traffic actually looks like in packet data — not conceptually, but at the byte level. So I built a parser that takes a Wireshark CSV export and runs it through six detection checks automatically.
+I wanted to understand what suspicious network traffic actually looks like in packet data not conceptually but at the byte level. So I built a parser that takes a Wireshark CSV export and runs it through six detection checks automatically.
 
 **What it catches:**
 - C2 beaconing — repeated connections from one internal host to one external IP (flagged at 15+ packets)
@@ -40,7 +40,7 @@ The demo generates 500 synthetic packets with injected threats so you can see th
 
 **Stack:** PowerShell, Windows Event Viewer, MITRE ATT&CK
 
-This came from the Windows Security Log Analysis lab work I was doing — I wanted to automate the correlation part instead of manually reviewing Event Viewer every time. The script queries the Security event log and ties what it finds to MITRE ATT&CK techniques so the output is actually actionable, not just a raw list of events.
+This came from the Windows Security Log Analysis lab work I was doing to automate the correlation part instead of manually reviewing Event Viewer every time. The script queries the Security event log and ties what it finds to MITRE ATT&CK techniques so the output is actually actionable, not just a raw list of events.
 
 **Event IDs it covers:**
 
@@ -77,4 +77,4 @@ Python scripting for data parsing and threat detection, PowerShell for Windows l
 
 Currently working toward Security+ and Azure fundamentals alongside the graduate program. Crown Castle background covers ServiceNow workflow management, SQL data validation, access governance (RBAC/IAM), and compliance documentation in a publicly traded telecom REIT.
 
-Open to connecting: blaine_traylor@yahoo.com | [LinkedIn](https://linkedin.com/in/Blaine-t)
+blaine_traylor@yahoo.com | LinkedIn
